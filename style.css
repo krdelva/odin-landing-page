@@ -55,7 +55,7 @@ body {
     padding: 4px;
     border-color: #3882F6;
     border-radius: 10%;
-    color: white;
+    color: #F9FAF8;
     align-self: flex-start;
 }
 
@@ -97,10 +97,25 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #e5e7eb;
+}
+
+.quote > p {
+    font-size: 36px;
+    font-weight: italic;
+    color: #1F2937
 }
 
 .action {
     background-color: #3882F6;
+    margin: 36px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action > .action-text {
+    
 }
 
 .footer {
@@ -108,4 +123,5 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #F9FAF8;
 }
