@@ -142,11 +142,13 @@ body {
     border-radius: 10px;
     border: 3px solid #3882F6;
     height: 200px;
+    margin-bottom: 8px;
 }
 
 .cards figcaption {
     text-align: center;
     flex-wrap: wrap;
+    color: rgb(53, 53, 53);
 }
 
 .quote {
